@@ -12,7 +12,7 @@ export const appConfig: ApplicationConfig = {
     provideZonelessChangeDetection(),
     provideRouter(routes),
     provideAnimationsAsync(),
-    providerPrimeNG({
+    providePrimeNG({
       theme: {
         preset: Aura
       }

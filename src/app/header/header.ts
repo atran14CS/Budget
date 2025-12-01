@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ButtonToMain } from './buttons/button-to-main'
+import { ButtonToMain } from '../buttons/button-to-main/button-to-main';
 
 @Component({
   selector: 'app-header',
